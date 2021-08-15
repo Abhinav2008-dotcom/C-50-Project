@@ -1,0 +1,57 @@
+.grid img{
+    border: 2px solid black;
+    border-radius: 50px;
+  
+    
+}
+
+.origami{
+    display: flex;
+    justify-content:flex ;
+    padding: 30px;
+    margin: 25px;
+    border-radius: 20px;
+    background-color: white;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 310px;
+   font-family:cursive;
+    color:crimson;
+    
+    
+}
+
+.menu{
+    display:flex;
+    justify-content:space-evenly;
+    padding: 30px;
+    font-size: 27px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 400;
+    color:orangered;
+    background-color: palegreen;
+   
+}
+
+body{
+    background-color: whitesmoke;
+    margin: 0px;
+}
+
+.origami:hover{
+    transform: scale(1.2);
+}
+
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: space-evenly;
+
+}
+
+.bodyimg{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
